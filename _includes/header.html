@@ -3,9 +3,11 @@
     <div class="fr-container">
       <div class="fr-header__body-row">
         <div class="fr-header__brand">
+            <a href="/" title="Retour à l’accueil">
             <img
                 class="fr-header__logo fr-responsive-img"
                 src="{{ '/assets/additional/images/Logo_Facettes_Paysages_sans-Txt.svg' }}" alt="Logo Facettes Paysages" style="max-width: 200px"/>
+            </a>
         </div>
         <div class="fr-header__tools">
           <div class="fr-header__search fr-modal" id="header-search" data-fr-js-modal="true" data-fr-js-header-modal="true">
@@ -33,6 +35,9 @@
       <div class="fr-header__menu-links"></div>
       <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
           <ul class="fr-nav__list">
+              <li>
+                  <a class="fr-nav__link" href="/" target="_self">Accueil</a>
+              </li>
               {% for item in site.data.menu.nav %}
               {% assign target = site.pages | where:"path",item.target | first %}
               <li class="fr-nav__item {% if target and page.url contains target.url %}fr-nav__item--active{% endif %}">

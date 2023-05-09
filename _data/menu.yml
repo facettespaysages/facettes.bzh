@@ -2,13 +2,10 @@
 title:
 nav:
   -
-    label: Accueil
-    url: /
-  -
-    label: Réalisations
+    label: Les Projets
     target: _pages/startups.md
   -
-    label: Communauté
+    label: Les Partenaires
     target: _pages/communaute.md
 fast:
   -
