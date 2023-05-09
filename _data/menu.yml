@@ -2,33 +2,14 @@
 title:
 nav:
   -
-    label: FAST
-    target: _pages/fast.md
-  -
-    label: Incubateurs
-    target: _pages/incubateurs.md
+    label: Accueil
+    url: /
   -
     label: Réalisations
     target: _pages/startups.md
   -
     label: Communauté
     target: _pages/communaute.md
-  -
-    label: Recrutement
-    target: _pages/recrutement.md
-shortcuts:
-  -
-    label: Documentation
-    external: true
-    url: https://doc.incubateur.net
-  -
-    label: Blog
-    external: true
-    url: https://blog.beta.gouv.fr
-  -
-    label: Espace Membre
-    external: true
-    url: https://espace-membre.incubateur.net
 fast:
   -
     label: Éligibilité au FAST
