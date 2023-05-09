@@ -10,32 +10,6 @@ layout: default
 {%- assign recent = site.authors | community: 'recent' -%}
 
 {%- include hero-page.html title=page.title -%}
-<section class="fr-py-6w">
-    <div class="fr-container">
-        <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-12 fr-col-md-6">
-                <div class="chart-wrapper">
-                    <canvas id="member"> Nous avons actuellement {{ currents | size }} membres. </canvas>
-                </div>
-            </div>
-            <div class="fr-col-12 fr-col-md-6">
-                <div class="chart-wrapper">
-                    <canvas id="pie-chart"> Nous avons actuellement {{ currents | size }} membres. </canvas>
-                </div>
-            </div>
-       </div>
-       <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-12 fr-col-md-6">
-                <a
-                    href="https://metabase.incubateur.net/public/dashboard/753b9685-f801-4b1a-8e09-6cefed729e2e"
-                    class="fr-btn fr-btn--md fr-enlarge-link fr-mb-3w"
-                    target="_blank" rel="noopener">
-                    Explorer les données
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="section-grey">
     <div class="fr-container">
         <div class="fr-grid-row fr-grid-row--gutters fr-py-2w">
@@ -51,11 +25,6 @@ layout: default
                     <span class="beta-square-list-item">■</span>
                     <b>{{ site.incubators.size }} incubateurs</b><br>
                     au sein d'agences déconcentrées, d'opérateurs et de ministères
-                    <a
-                        href="/incubateurs"
-                        class="fr-btn fr-btn--secondary fr-fi-arrow-right-line fr-btn--icon-right fr-mt-2w">
-                        Réseaux des incubateurs
-                    </a>
                 </p>
             </div>
             <div class="fr-col fr-col-12 fr-col-md-3 beta-list-item">
@@ -88,7 +57,7 @@ layout: default
                                 <h3 class="fr-card__title fr-mb-2w">
                                     <a href="/communaute/annuaire" target="_blank" rel="noopener" title="Voir plus">Voir les {{ currents | size }} membres actifs</a>
                                 </h3>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
