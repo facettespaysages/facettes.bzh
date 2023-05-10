@@ -1,8 +1,12 @@
 ---
 fullname: ABEIL
-compétences: ingénieurs en VRD, éclairage, mobilités actives, démarche environnementale
+role: ingénieurs en VRD, éclairage, mobilités actives, démarche environnementale
 domaine: Ingénierie
 link: https://www.abeil-bretagne.fr/
+incubator: maitres_oeuvre
+avatar: ""
+competences:
+badges:
 ---
 
-ABEIL est une agence d'ingénierie basée à Rennes. Nous sommes lauréats pour mener l'étude de requalification des espaces publicsdu centre-bourg de Ploubezre.
+ABEIL est une agence d'ingénierie basée à Rennes. Nous sommes lauréats pour mener l'étude de requalification des espaces publics du centre-bourg de Ploubezre.
