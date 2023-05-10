@@ -1,3 +1,14 @@
+input,
+select,
+textarea,
+body {
+  font-family: "Poppins", "Marianne", arial, sans-serif;
+}
+
+.fr-text--alt {
+  font-family: "Poppins", "Spectral", georgia, serif !important;
+}
+
 main .fr-container img {
   width: 100%;
 }
