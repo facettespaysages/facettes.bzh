@@ -4,7 +4,7 @@ mission: Accompagner la transformation du centre-bourg
 sponsors:
 incubator:
 link:
-contact:
+contact: Camille Laude Architecte, SODEREF Environnement
 accessibility_status:
 usertypes:
   - particulier
@@ -12,8 +12,8 @@ usertypes:
 stats: true
 phases:
   - name: all
-    start: 2020-10-15
-    end: 2021-02-28
+    start: 2023-01-02
+    end: 2023-12
 
 ---
 # Requalification du centre-bourg
@@ -22,7 +22,7 @@ phases:
 ## Contexte 
 
 La commune de Saint-Vincent a missionné notre équipe pour intégrer l'élargissement de la route départementale dans une étude plus large de requalification des espaces publics du centre-bourg.
-Les opérations de démolition de certaines maisons transforme la perception de l'espace vécu entre l'église au sud et le futur espace de vie communal au nord.
+Les opérations de démolition de certaines maisons transforment la perception de l'espace vécu entre l'église au sud et le futur espace de vie communal au nord.
 
 ## Enjeux
 

@@ -138,21 +138,13 @@ layout: default
     <section class="filters sticky incubator-header fr-mb-2w">
         <div class="fr-container">
             <select class="fr-select" id="select-incubateur">
-                <option value="">Tous les incubateurs</option>
+                <option value="">Tous les partenaires</option>
             </select>
         </div>
     </section>
     <div class="fr-tabs">
-        <ul class="fr-tabs__list" role="tablist" aria-label="Changer de vue">
-            <li role="presentation">
-                <button id="tabpanel-currents" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-actifs">Membres actifs</button>
-            </li>
-            <li role="presentation">
-                <button id="tabpanel-alumnis" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-alumnis">Alumni</button>
-            </li>
-        </ul>
         <div id="tabpanel-actifs" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="tabpanel-currents" tabindex="0">
-            <h2><span id="currents-count">{{ currents | size }}</span> membres actifs</h2>
+            <h2><span id="currents-count">{{ currents | size }}</span> partenaires</h2>
             <div class="authors fr-grid-row fr-grid-row--gutters">
                 {%- for author in currents -%}
                 <div class="fr-col-12 fr-col-sm-6 fr-col-md-4 fr-col-lg-3">{%- include card-community.html author=author -%}</div>

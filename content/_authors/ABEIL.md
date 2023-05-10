@@ -7,6 +7,7 @@ incubator: maitres_oeuvre
 avatar: ""
 competences:
 badges:
+startups:
 ---
 
 ABEIL est une agence d'ingénierie basée à Rennes. Nous sommes lauréats pour mener l'étude de requalification des espaces publics du centre-bourg de Ploubezre.

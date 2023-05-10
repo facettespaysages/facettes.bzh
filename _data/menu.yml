@@ -6,7 +6,7 @@ nav:
     target: _pages/startups.md
   -
     label: Les Partenaires
-    target: _pages/communaute.md
+    target: _pages/annuaire.md
 fast:
   -
     label: Éligibilité au FAST
