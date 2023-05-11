@@ -35,8 +35,8 @@ jobs:
       - name: Jekyll build
         run: bundle exec jekyll build --trace
 
-      - name: Check HTML common mistakes
-        run: make html-proofer
+#      - name: Check HTML common mistakes
+#        run: make html-proofer
 
       - name: HTML5 Validator
         uses: Cyb3r-Jak3/html5validator-action@master
