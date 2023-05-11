@@ -1,8 +1,0 @@
-////
-/// Icon Document Legacy
-/// @group icons-document
-////
-
-@include legacy(ie11) {
-  @include generate-icons-legacy(filter-icons('document'));
-}

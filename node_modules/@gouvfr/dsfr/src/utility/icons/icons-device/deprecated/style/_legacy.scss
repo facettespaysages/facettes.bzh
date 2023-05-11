@@ -1,8 +1,0 @@
-////
-/// Icon Device Legacy
-/// @group icon-device
-////
-
-@include legacy(ie11) {
-  @include generate-deprecated-icons-legacy($deprecated-icons, filter-icons('device'));
-}
