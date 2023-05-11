@@ -470,6 +470,10 @@ ol li p, ul li p {
   color: #304591;
 }
 
+.text-green {
+  color: #0c3923;
+}
+
 .text-white {
   color: var(--grey-1000-50);
 }
