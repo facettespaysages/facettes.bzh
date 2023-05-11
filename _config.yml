@@ -54,10 +54,6 @@ exclude: [
 
 empty_placeholder: "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
 
-copy_to_dest:
-  - source: node_modules/@gouvfr/dsfr/dist/.
-    target: assets/gouvfr/
-
 keep_files:
   - assets/gouvfr
 

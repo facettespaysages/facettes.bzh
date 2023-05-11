@@ -17,7 +17,7 @@ phases:
 
 ---
 # Requalification du centre-bourg
-"Etudes d’aménagement du centre-bourg de Saint-Vincent du Lorouër"
+_Etudes d’aménagement du centre-bourg de Saint-Vincent du Lorouër_
 
 ## Contexte 
 

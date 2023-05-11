@@ -7,16 +7,7 @@ nav:
   -
     label: Les Partenaires
     target: _pages/annuaire.md
-fast:
-  -
-    label: Éligibilité au FAST
-    target: /fast/éligibilité
-  -
-    label: Jury du FAST
-    target: /fast/comité
-  -
-    label: Pendant le FAST
-    target: /fast/déroulement
-  -
-    label: Lauréats passés du FAST
-    target: /fast/lauréats
+shortcuts:
+  - label: Étude Salariale
+    url: https://pocman.github.io/etude-salariale-paysagiste-concepteur/
+    external: true
