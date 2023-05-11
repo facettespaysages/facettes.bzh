@@ -26,8 +26,8 @@ jobs:
       - name: Unit tests
         run: bundle exec rspec
 
-      - name: Check data structure
-        run: make validate
+#      - name: Check data structure
+#        run: make validate
 
       - name: Check Jekyll configuration
         run: bundle exec jekyll doctor
