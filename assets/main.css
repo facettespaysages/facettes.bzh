@@ -78,13 +78,13 @@ main .fr-container img {
 }
 
 .hero__startup__mission {
-  color: #4941C0;
+  color: #304490;
 }
 
 
 /* Couleurs de sections et espacemements */
 .section-grey {
-  background-color: #E9E6FC;
+  background-color: #e9e3e6;
 }
 
 .section-lightgrey {
@@ -110,7 +110,7 @@ main .fr-container img {
 }
 
 /*
- Ci-dessous, modifications temporaire au système de design
+ Ci-dessous, modifications temporaires au système de design
 */
 
 /* Afficher le curseur même quand on est sur la page active */
@@ -359,7 +359,7 @@ ol li p, ul li p {
 
 .section-description {
   font-weight: bold;
-  color: #4941C0;
+  color: #0c3923;
 }
 
 
