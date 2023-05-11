@@ -1,21 +1,53 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Tests
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  github-pages:
-    runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ruby-version: 3.2
+          bundler-cache: true
+      - name: Install npm dependencies
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - run: npm ci
+
+      - name: Unit tests
+        run: bundle exec rspec
+
+      - name: Check data structure
+        run: make validate
+
+      - name: Check Jekyll configuration
+        run: bundle exec jekyll doctor
+
+      - name: Jekyll build
+        run: bundle exec jekyll build --trace
+
+      - name: Check HTML common mistakes
+        run: make html-proofer
+
+      - name: HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@master
+        with:
+          root: _site
+          extra: --ignore 'Element "img" is missing required attribute "src"'
+          skip_git_check: true
+
+      - name: Wait for server to start
+        run: |
+          (bundle exec jekyll serve --no-watch --skip-initial-build)&
+          while ! curl --silent http://localhost:4000
+          do sleep 1
+          done
