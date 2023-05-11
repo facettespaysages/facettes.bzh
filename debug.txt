@@ -1,2 +1,2 @@
-site.url → "https://facettespaysages.github.io"
-site.baseurl → "/facettes.bzh"
+site.url → "https://facettes.bzh"
+site.baseurl → ""
