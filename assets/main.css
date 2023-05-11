@@ -389,7 +389,7 @@ ol li p, ul li p {
 }
 
 .section-main h1 {
-  color: #d6d5b3;
+  color: #e9e3e6;
   text-align: left;
   margin-bottom: 1.2em;
 }
@@ -436,7 +436,7 @@ ol li p, ul li p {
 
 
 .section-highlight {
-  color: #d6d5b3;
+  color: #e9e3e6;
 }
 
 @media (max-width: 749px) {
