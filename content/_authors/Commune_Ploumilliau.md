@@ -7,6 +7,7 @@ incubator: maitres_ouvrage
 avatar: ""
 competences:
 badges:
+missions:
 ---
 
 La commune de Ploumilliau me fait confiance dans l'étude de faisabilité "Villiers de l'Isle Adam".

@@ -9,6 +9,7 @@ competences:
 badges:
 startups:
     - SaintVincent
+missions:
 ---
 
 La commune de Saint-Vincent du Lorouër me fait confiance dans la requalification de son centre-bourg.
