@@ -23,10 +23,10 @@
   <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
   <meta name="apple-mobile-web-app-title" content="beta.gouv.fr">
   <meta name="application-name" content="beta.gouv.fr">
-  <meta name="msapplication-TileColor" content="#042075">
+  <meta name="msapplication-TileColor" content="#304591">
   <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#042075">
+  <meta name="theme-color" content="#304591">
   <style>
     /* Ugly hack that remove the Media icon from the navbar (it's the third element) */
     nav>ul>li:nth-child(3) {
@@ -63,7 +63,7 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script>
       if(document.location.href.endsWith("/admin")) {
-            window.location.href = "/admin/";   
+            window.location.href = "/admin/";
       }
   </script>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
@@ -114,7 +114,7 @@
           var searchInput = searchContainer.querySelector('[class*="SearchInput"]');
           searchInput.placeholder = 'Rechercher un produit, un membre, ...'
         }
-        
+
         var createButton = document.querySelector('[class*="CollectionTopNewButton"]');
         if (createButton && createButton.innerText === 'Créer une entrée de type Produit') {
           createButton.innerText = 'Créer une fiche produit'
@@ -153,7 +153,7 @@
           this.options = authors
           this.props.onChange(e.target.value.split(separator).map((e) => e.trim()));
         },
-      
+
         render: function() {
           const separator = this.props.field.get('separator', ', ');
           var value = this.props.value;
@@ -169,7 +169,7 @@
           }));
         },
       });
-      
+
       var CategoriesPreview = createClass({
         render: function() {
           console.log('LCS RENDER PREVIEW')
@@ -180,13 +180,13 @@
           );
         }
       });
-      
+
       var schema = {
         properties: {
           separator: { type: 'string' },
         },
       }
-      
+
       CMS.registerWidget('betamembers', CategoriesControl, CategoriesPreview, schema);
   </script> -->
   <script src='/admin/widget-select-async.js'></script>
