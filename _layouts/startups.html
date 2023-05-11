@@ -96,49 +96,13 @@ layout: default
     </div>
 </section>
 
-<section class="filters fr-container fr-my-6w">
-    <h2>
-        <button class="fr-accordion__btn" aria-expanded="false" aria-controls="fr-accordion-0-body-0" data-fr-js-collapse-button="true">Filtrer les réalisations</button>
-    </h2>
-    <div id="fr-accordion-0-body-0" class="fr-container fr-collapse">
-        <label class="fr-hidden">Tous les incubateurs</label>
-        <select class="fr-select" id="select-incubateur">
-            <option value="">Tous les incubateurs</option>
-        </select>
-        <label class="fr-hidden">Tous les types d'usagers</label>
+<section class="filters sticky incubator-header fr-mb-2w">
+    <div class="fr-container">
         <select class="fr-select" id="select-usertypes">
             <option value="">Tous les types d'usagers</option>
         </select>
-        <label class="fr-hidden">Aller à une phase</label>
-        <select class="fr-select" id="select-phase">
-            <option>Aller à une phase</option>
-            {% for phase in phases_with_stopped %}
-                <option value="{{ phase.status }}" id="{{phase.status}}-option">{{ phase.label }}</option>
-            {% endfor %}
-        </select>
     </div>
 </section>
-{% for incubator in incubators %}
-{% assign incubator_id = incubator.id | remove: '/incubators/' %}
-{% assign organisation = site.organisations  | where: 'id', incubator.owner | first %}
-
-<section id="{{ incubator_id }}" class="fr-py-6w incubator-header fr-scheme-soft-blue-soft" style="display: none;">
-    <div class="fr-container">
-        <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-1 incubator-logo">
-                <img src="../img/incubators/{{ incubator.logo }}" alt="Logo de {{ incubator.title }}">
-            </div>
-            <div class="fr-col">
-                <div>
-                    <h1 class="fr-card__title">{{ incubator.title }}</h1>
-                    <p class="fr-card__title-subtitle">{{ organisation.name }}</p>
-                    <div class="markdown">{{ incubator.content }}</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{% endfor %}
 
 <div class="fr-container fr-py-6w">
     <div id="no-data-message" style="display: none;">
@@ -155,11 +119,11 @@ layout: default
         <div id="{{ phase.status }}" class="fr-container-fluid{% if phase.status != 'success' %} fr-my-6w{% endif %}">
             <!-- Les span contenant les class "phase-counter" et "phase-label" permettent d'afficher le counter des startups grâce à des getElementsByClassName dans le fichier javascript dans search-startup.js -->
             {% if phase.status == 'success' %}
-                <h2><span class="phase-counter">{{ counter }}</span> <span class="phase-label">{{ phase.type_label }}{{ plural }}</span> <span>{{ phase.label | downcase }}{{ plural }}</span></h2> 
+                <h2><span class="phase-counter">{{ counter }}</span> <span class="phase-label">{{ phase.type_label }}{{ plural }}</span> <span>{{ phase.label | downcase }}{{ plural }}</span></h2>
             {% elsif phase.status == 'alumni' %}
                 <h2>Nos {{ phase.label | downcase }}</h2>
             {% else %}
-                <h2><span class="phase-counter">{{ counter }}</span> <span class="phase-label">{{ phase.type_label }}{{ plural }}</span> en {{ phase.label | downcase }}</h2>
+                <h2><span class="phase-counter">{{ counter }}</span> <span class="phase-label">{{ phase.type_label }}{{ plural }}</span></h2>
             {% endif %}
 
             <p>{{ phase.short_description }}</p>
@@ -192,6 +156,5 @@ layout: default
     var incubatorValue = urlParams.get('incubateur');
     var usertypesValue = urlParams.get('usertypes');
     data = generateDataWithHtmlCards(data);
-    createIncubatorSelect(data, incubators, incubatorValue);
     createUsertypesSelect(data, usertypesValue)
 </script>
