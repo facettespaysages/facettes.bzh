@@ -12,8 +12,8 @@
 title: facettes.bzh
 email: juliette@facettes.bzh
 description: Site de Facettes Paysages
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://facettespaysages.github.io/facettes.bzh/ # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /facettes.bzh # the subpath of your site, e.g. /blog
+url: https://facettespaysages.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_repository: facettespaysages/facettes.bzh
 
 # Build settings
