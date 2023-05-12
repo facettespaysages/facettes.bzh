@@ -47,7 +47,7 @@ var createAuthorCard = function (author) {
   const incubator = author.incubator ? incubators.find((incubator) => incubator.id === author.incubator) : undefined;
   const isAlumnus = authorEndDate < timestampNow;
 
-  const avatar = `<img class="avatar-rounded" src="${MEMBER_PLACEHOLDER}" data-src="${avatarSrc}" alt="">`;
+  const avatar = `<img class="avatar-rounded" src="${avatarSrc}" alt="">`;
 
   const title = author.link ? `<a class="fr-card__link" href="${author.link}" target="_blank" rel="noopener">${author.fullname}</a>` : author.fullname;
   const detail = isAlumnus ? "Alumnus" : author.role;
