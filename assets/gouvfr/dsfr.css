@@ -97,9 +97,9 @@ a {
   --background-alt-beige-gris-galet: var(--beige-gris-galet-975-75);
   --background-alt-beige-gris-galet-hover: var(--beige-gris-galet-975-75-hover);
   --background-alt-beige-gris-galet-active: var(--beige-gris-galet-975-75-active);
-  --background-contrast-grey: var(--grey-950-100);
-  --background-contrast-grey-hover: var(--grey-950-100-hover);
-  --background-contrast-grey-active: var(--grey-950-100-active);
+  --background-contrast-grey: var(--grey-facettes);
+  --background-contrast-grey-hover: var(--grey-facettes-hover);
+  --background-contrast-grey-active: var(--grey-facettes-active);
   --background-contrast-blue-france: var(--blue-france-950-100);
   --background-contrast-blue-france-hover: var(--blue-france-950-100-hover);
   --background-contrast-blue-france-active: var(--blue-france-950-100-active);
