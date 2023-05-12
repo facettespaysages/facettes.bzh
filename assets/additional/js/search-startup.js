@@ -44,8 +44,7 @@ var createStartupCard = function (startup) {
             </div>
             <div class="fr-card__img">
                 <img class="screenshot"
-                    src="${STARTUP_PLACEHOLDER}"
-                    data-src="${startup.attributes["screenshot-url"]}"
+                    src="${startup.attributes["screenshot-url"]}"
                     alt=""
                     />
             </div>
