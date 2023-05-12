@@ -95,8 +95,12 @@ main .fr-container img {
   color: #1e1e1e;
 }
 
-.section-lightgrey .section-highlight {
- color: #484d7a;
+.section-lightgrey {
+    color: #484d7a;
+}
+
+.section-highlight {
+ color: var(--orange-facettes);
 }
 
 .section-dark {
@@ -434,11 +438,6 @@ ol li p, ul li p {
   background-color: #d6d5b3
 }
 
-
-.section-highlight {
-  color: #e9e3e6;
-}
-
 @media (max-width: 749px) {
   .section-main {
     min-height: none;
@@ -468,10 +467,6 @@ ol li p, ul li p {
 
 .text-purple {
   color: #304591;
-}
-
-.text-green {
-  color: #0c3923;
 }
 
 .text-white {
