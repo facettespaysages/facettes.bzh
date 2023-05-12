@@ -322,6 +322,7 @@ a {
   --text-default-error: var(--error-425-625);
   --text-action-high-grey: var(--grey-50-1000);
   --text-action-high-blue-france: var(--blue-france-sun-113-625);
+  --text-action-high-blue-facettes: var(--blue-facettes);
   --text-action-high-red-marianne: var(--red-marianne-425-625);
   --text-action-high-green-tilleul-verveine: var(--green-tilleul-verveine-sun-418-moon-817);
   --text-action-high-green-bourgeon: var(--green-bourgeon-sun-425-moon-759);
@@ -7966,7 +7967,7 @@ h1 {
 .fr-connect-group .fr-connect + p a {
   font-size: 0.875rem;
   line-height: 1.5rem;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-connect::after {
@@ -8784,7 +8785,7 @@ un padding de 4px et une marge négative en compensation sont mis en place afin 
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 0 0;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-link[target=_blank] {
@@ -9056,7 +9057,7 @@ un padding de 4px et une marge négative en compensation sont mis en place afin 
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-link--close::after {
@@ -10280,7 +10281,7 @@ a.fr-link--close:not([href]) {
   --title-spacing: 0;
   z-index: 1;
   display: inline;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-download {
@@ -10373,7 +10374,7 @@ a.fr-link--close:not([href]) {
   right: 1.5rem;
   bottom: 1.5rem;
   margin: 0;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-download--card .fr-download__link::after::before,
@@ -10437,7 +10438,7 @@ a.fr-link--close:not([href]) {
 }
 
 .fr-downloads-group li::marker {
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 /* ¯¯¯¯¯¯¯¯¯ *\
@@ -11948,7 +11949,7 @@ a.fr-btn:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   box-shadow: inset 0 0 0 1px var(--border-action-high-blue-france);
 }
 
@@ -11967,7 +11968,7 @@ a.fr-btn--secondary:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   box-shadow: inset 0 0 0 1px var(--border-default-grey);
 }
 
@@ -11988,7 +11989,7 @@ a.fr-btn--tertiary:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-btn--tertiary-no-outline:disabled,
@@ -14083,7 +14084,7 @@ input[type=submit].fr-tag[aria-pressed=true]::after {
   top: 4px;
   right: 0;
   margin: -0.5rem;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 a.fr-tag[aria-pressed=true].fr-tag--sm::after,
@@ -14230,7 +14231,7 @@ input[type=submit].fr-tag--dismiss.fr-tag--sm::after {
 }
 
 .fr-tag[aria-pressed=false] {
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   background-color: var(--background-action-low-blue-france);
 
   --hover: var(--background-action-low-blue-france-hover);
@@ -14251,7 +14252,7 @@ input[type=button].fr-tag,
 input[type=image].fr-tag,
 input[type=reset].fr-tag,
 input[type=submit].fr-tag {
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   background-color: var(--background-action-low-blue-france);
 
   --hover: var(--background-action-low-blue-france-hover);
@@ -14851,7 +14852,7 @@ input[type=submit].fr-tag:disabled {
   position: absolute;
   right: 2rem;
   bottom: 2rem;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-card--no-icon::before,
@@ -15441,7 +15442,7 @@ textarea.fr-input {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-content-media__transcription .fr-btn::after {
@@ -15505,7 +15506,7 @@ textarea.fr-input {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-content-media__transcription .fr-link::after {
@@ -16258,7 +16259,7 @@ textarea.fr-input {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   box-shadow: inset 0 0 0 1px var(--border-default-grey);
 }
 
@@ -16417,7 +16418,7 @@ textarea.fr-input {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   box-shadow: inset 0 0 0 1px var(--border-default-grey);
 }
 
@@ -17084,7 +17085,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-follow__social .fr-link::before {
@@ -17202,7 +17203,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-follow__social .fr-btn:disabled,
@@ -17398,7 +17399,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-header__navbar .fr-btn::before {
@@ -17594,7 +17595,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   box-shadow: inset 0 -1px 0 0 var(--border-default-grey);
 }
 
@@ -17612,7 +17613,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-header__tools-links .fr-btn:disabled,
@@ -17650,7 +17651,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
   box-shadow: inset 0 -1px 0 0 var(--border-default-grey);
 }
 
@@ -17668,7 +17669,7 @@ a.fr-share__link:not([href]) {
 
   --hover: inherit;
   --active: inherit;
-  color: var(--text-action-high-blue-france);
+  color: var(--text-action-high-blue-facettes);
 }
 
 .fr-header__tools-links .fr-link:disabled,
