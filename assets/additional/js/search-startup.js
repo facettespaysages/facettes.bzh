@@ -43,7 +43,7 @@ var createStartupCard = function (startup) {
                 <p class="fr-card__desc">${startup.attributes.pitch}</p>
             </div>
             <div class="fr-card__img">
-                <img class="screenshot lozad"
+                <img class="screenshot"
                     src="${STARTUP_PLACEHOLDER}"
                     data-src="${startup.attributes["screenshot-url"]}"
                     alt=""
@@ -121,7 +121,7 @@ var updateCards = function (data) {
     }
     var phaseLabel = phaseElement.getElementsByClassName("phase-label")[0];
     if (phaseLabel) {
-      
+
       var currentPhase = phases.filter((p) => p.status === phase)[0];
       var plural = dataToDisplay.length > 1 ? "s" : "";
       if (currentPhase.status === "success") {
