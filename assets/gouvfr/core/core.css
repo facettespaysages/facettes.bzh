@@ -878,7 +878,7 @@ textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-family: "Marianne", arial, sans-serif;
+  font-family: "Poppins", "Marianne", arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1558,7 +1558,7 @@ sup {
 }
 
 body {
-  font-family: "Marianne", arial, sans-serif;
+  font-family: "Poppins", "Marianne", arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
