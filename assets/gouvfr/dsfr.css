@@ -315,6 +315,7 @@ a {
   --background-disabled-grey: var(--grey-925-125);
   --background-overlay-grey: var(--grey-50-1000-a375);
   --text-default-grey: var(--grey-200-850);
+  --text-default-green: var(--green-facettes);
   --text-default-info: var(--info-425-625);
   --text-default-success: var(--success-425-625);
   --text-default-warning: var(--warning-425-625);
@@ -1526,7 +1527,7 @@ body {
 
   --hover: var(--background-default-grey-hover);
   --active: var(--background-default-grey-active);
-  color: var(--text-default-grey);
+  color: var(--text-default-green);
 }
 
 [class^=fr-icon-]::before,
@@ -10755,7 +10756,7 @@ a.fr-link--close:not([href]) {
   max-width: 100%;
   text-transform: uppercase;
   border-radius: 0.25rem;
-  color: var(--text-default-grey);
+  color: var(--text-default-green);
   background-color: var(--background-contrast-grey);
 
   --hover: var(--background-contrast-grey-hover);
@@ -16805,7 +16806,7 @@ a.fr-share__link:not([href]) {
 .fr-consent-manager__header,
 .fr-consent-service {
   box-shadow: inset 0 -1px 0 0 var(--border-default-grey);
-  color: var(--text-default-grey);
+  color: var(--text-default-green);
 }
 
 .fr-consent-manager__header .fr-radio-group + .fr-radio-group::before,
@@ -17641,7 +17642,7 @@ a.fr-share__link:not([href]) {
 }
 
 .fr-header__navbar .fr-btn--menu {
-  color: var(--text-default-grey);
+  color: var(--text-default-green);
 }
 
 .fr-header__menu-links .fr-link {
