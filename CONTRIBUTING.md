@@ -75,10 +75,7 @@ Il vous suffit alors de sortir puis revenir du répertoire pour que le gemset so
 Ensuite, exécutez les commandes suivantes :
 
 ```sh
-git clone https://github.com/betagouv/beta.gouv.fr.git
-cd beta.gouv.fr
 gem install bundler --no-ri --no-rdoc
-npm install
 bundle install
 bundle exec jekyll serve
 ```
