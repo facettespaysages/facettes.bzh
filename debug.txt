@@ -1,2 +1,2 @@
-site.url → "https://facettes.bzh"
+site.url → "https://www.facettes.bzh"
 site.baseurl → ""
