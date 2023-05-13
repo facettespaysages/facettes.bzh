@@ -11,7 +11,7 @@
 # Site settings
 title: Facettes Paysages
 email: juliette@facettes.bzh
-description: Agence de paysage finistèrienne
+description: Agence de paysage finistérienne
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://www.facettes.bzh # the base hostname & protocol for your site, e.g. http://example.com
 github_repository: facettespaysages/facettes.bzh
