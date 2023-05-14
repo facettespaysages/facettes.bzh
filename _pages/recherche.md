@@ -1,5 +1,5 @@
 ---
 layout: recherche
 permalink: /recherche
-title: Rechercher dans beta.gouv.fr
+title: Rechercher dans facettes.bzh
 ---
