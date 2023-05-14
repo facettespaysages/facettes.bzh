@@ -5,8 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
-    <title>Rechercher dans beta.gouv.fr — Facettes Paysages</title>
-    <meta property="og:title" content="Rechercher dans beta.gouv.fr">
+    <title>Rechercher dans facettes.bzh — Facettes Paysages</title>
+    <meta property="og:title" content="Rechercher dans facettes.bzh">
 
     
 
@@ -149,11 +149,6 @@
       <div class="fr-container fr-py-6w">
     <h1 id="search-page-title">Résultat(s) de la recherche</h1>
 
-    <div id="search-results-incubators">
-        <h2 class="fr-h3 fr-pt-4w" id="search-results-incubators-title">Aucun incubateur</h2>
-        <ul id="search-results-incubators-list" class="fr-raw-list"></ul>
-    </div>
-
     <div id="search-results-realisations">
         <h2 class="fr-h3 fr-pt-4w" id="search-results-realisations-title">Aucune réalisation</h2>
         <ul id="search-results-realisations-list" class="fr-raw-list"></ul>
@@ -184,7 +179,7 @@
         var searchResultDiv = document.getElementById(category.searchResultId);
         var searchResultTitle = document.getElementById(category.searchResultTitleId);
         var searchResultList = document.getElementById(category.searchResultListId);
-        
+
         if (results.length) {
             searchResultList.innerHTML = results
                 .map(result => category.store[result.ref])
@@ -223,7 +218,7 @@
                 "current_team"  : "Camille Laude Architecte, Commune de Saint-Vincent du Lorouër, ",
                 "past_team"     : ""
             } 
-           
+        
     };
 
     const pages = {
@@ -233,20 +228,8 @@
                 title: "Vous y êtes presque, continuez à chercher"
             } ,
         
-            "/en/about/" : {
-                title: "About us"
-            } ,
-        
             "/apropos/" : {
                 title: "À propos"
-            } ,
-        
-            "/approche/acceleration" : {
-                title: "Phase d'accélération"
-            } ,
-        
-            "/approche/formation" : {
-                title: "La formation Alpha"
             } ,
         
             "/communaute/annuaire" : {
@@ -254,11 +237,7 @@
             } ,
         
             "/approche/" : {
-                title: "Découvrir le programme"
-            } ,
-        
-            "/blog/" : {
-                title: "Redirection vers le blog..."
+                title: "Découvrir Facettes Paysages"
             } ,
         
             "/communaute/" : {
@@ -269,52 +248,12 @@
                 title: "Merci de valider  votre email"
             } ,
         
-            "/approche/construction" : {
-                title: "Réaliser un service public numérique"
-            } ,
-        
-            "/contact/" : {
-                title: "Nous contacter"
-            } ,
-        
-            "/dashboard/" : {
-                title: "Vue d'ensemble"
-            } ,
-        
-            "/ficheproduit/" : {
-                title: "Rédiger une fiche produit"
-            } ,
-        
             "/home.html" : {
                 title: "Agence de paysage finistérienne"
             } ,
         
-            "/incubateurs/" : {
-                title: "Les incubateurs du programme beta.gouv.fr"
-            } ,
-        
             "/" : {
                 title: "Agence de paysage finistérienne"
-            } ,
-        
-            "/approche/intrapreneurs" : {
-                title: "Les intrapreneurs"
-            } ,
-        
-            "/approche/investigation" : {
-                title: "Identifier le problème à résoudre"
-            } ,
-        
-            "/devenir-intrapreneur" : {
-                title: "Devenir intrapreneur"
-            } ,
-        
-            "/manifeste" : {
-                title: "Manifeste beta.gouv.fr"
-            } ,
-        
-            "/approche/formation/mooc" : {
-                title: "Formation en ligne ouverte à tous"
             } ,
         
             "/newsletter-merci/" : {
@@ -322,29 +261,17 @@
             } ,
         
             "/recherche" : {
-                title: "Rechercher dans beta.gouv.fr"
-            } ,
-        
-            "/approche/sponsors" : {
-                title: "Les sponsors"
+                title: "Rechercher dans facettes.bzh"
             } ,
         
             "/startups/" : {
                 title: "Nos réalisations"
             } ,
         
-            "/stats/" : {
-                title: "Indicateurs de beta.gouv.fr"
-            } ,
-        
             "/suivi/" : {
                 title: "Suivi d'audience et vie privée"
-            } ,
-        
-            "/approche/transfert" : {
-                title: "Phase de transfert"
             } 
-           
+        
     };
 
     const incubators = [
@@ -373,35 +300,6 @@
 
     const categories = [
         {
-            name: 'Incubateur(s)',
-            searchResultId: 'search-results-incubators',
-            searchResultTitleId: 'search-results-incubators-title',
-            searchResultListId: 'search-results-incubators-list',
-            print: function(incubator) {
-                return '<li><a class="fr-link fr-fi-arrow-right-line fr-link--icon-left" href="' + incubator.url + '">' + incubator.title + '</a></li>';
-            },
-            idx: lunr(function () {
-                this.field('title', { boost: 10 });
-                this.field('owner');
-                this.field('website');
-                this.field('contact');
-                this.field('address');
-                this.field('github');
-                for (var key in incubators) { 
-                    this.add({
-                        'id': key,
-                        'title': incubators[key].title,
-                        'owner': incubators[key].owner,
-                        'website': incubators[key].website,
-                        'contact': incubators[key].contact,
-                        'address': incubators[key].address,
-                        'github': incubators[key].github
-                    });
-                }
-            }),
-            store: incubators
-        },
-        {
             name: 'Réalisation(s)',
             searchResultId: 'search-results-realisations',
             searchResultTitleId: 'search-results-realisations-title',
@@ -417,7 +315,7 @@
                 this.field('contact');
                 this.field('current_team');
                 this.field('past_team');
-                for (var key in startups) { 
+                for (var key in startups) {
                     this.add({
                         'id': key,
                         'title': startups[key].title,
@@ -441,7 +339,7 @@
             },
             idx: lunr(function () {
                 this.field('title');
-                for (var key in pages) { 
+                for (var key in pages) {
                     this.add({
                         'id': key,
                         'title': pages[key].title
@@ -457,6 +355,7 @@
     searchPageTitle.innerHTML = 'Résultat(s) de recherche pour : <strong>«&nbsp;' + searchTerm + '&nbsp;»</strong>';
     displaySearchResults(searchTerm, categories);
 </script>
+
     </main>
     <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
 <script type="module" src="/assets/gouvfr/dsfr.module.min.js"></script>
