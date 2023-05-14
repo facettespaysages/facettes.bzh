@@ -814,8 +814,8 @@ a {
   --grey-facettes-active: rgba(233, 227, 230, 0.55);
   --grey-facettes-a375: rgba(233, 227, 230, 0.375);
   --blue-facettes: #304591;
-  --blue-facettes-hover: #304591;
-  --blue-facettes-active: #304591;
+  --blue-facettes-hover: rgba(48, 69, 145, 0.4);
+  --blue-facettes-active: rgba(48, 69, 145, 0.6);
   --low-blue-facettes: rgba(48, 69, 145, 0.2);
   --low-blue-facettes-hover: rgba(48, 69, 145, 0.4);
   --low-blue-facettes-active: rgba(48, 69, 145, 0.6);
@@ -7897,10 +7897,10 @@ h1 {
   justify-content: center;
   height: 3.5rem;
   margin-bottom: 0.75rem;
-  background-color: var(--background-action-high-blue-france);
+  background-color: var(--blue-facettes);
 
-  --hover: var(--background-action-high-blue-france-hover);
-  --active: var(--background-action-high-blue-france-active);
+  --hover: var(--blue-facettes-hover);
+  --active: var(--blue-facettes-active);
   color: var(--text-inverted-blue-france);
 }
 
@@ -11158,10 +11158,10 @@ a.fr-link--close:not([href]) {
   line-height: 1.5rem;
   min-height: 2.5rem;
   padding: 0.5rem 1rem;
-  background-color: var(--background-action-high-blue-france);
+  background-color: var(--blue-facettes);
 
-  --hover: var(--background-action-high-blue-france-hover);
-  --active: var(--background-action-high-blue-france-active);
+  --hover: var(--blue-facettes-hover);
+  --active: var(--blue-facettes-active);
   color: var(--text-inverted-blue-france);
 }
 
@@ -12120,7 +12120,7 @@ a.fr-btn--display:not([href]),
   margin-top: 0.75rem;
   margin-right: 0.5rem;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 12px var(--background-default-grey), inset 0 0 0 12px var(--background-action-high-blue-france);
+  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 12px var(--background-default-grey), inset 0 0 0 12px var(--blue-facettes);
 }
 
 .fr-radio-group input[type=radio]:checked + label {
@@ -12140,7 +12140,7 @@ a.fr-btn--display:not([href]),
   width: 1rem;
   height: 1rem;
   margin-top: 1rem;
-  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 8px var(--background-default-grey), inset 0 0 0 8px var(--background-action-high-blue-france);
+  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 8px var(--background-default-grey), inset 0 0 0 8px var(--blue-facettes);
 }
 
 .fr-radio-rich {
@@ -12177,7 +12177,7 @@ a.fr-btn--display:not([href]),
   top: 50%;
   left: 1.75rem;
   margin-top: -0.5rem;
-  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 8px var(--background-default-grey), inset 0 0 0 8px var(--background-action-high-blue-france);
+  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 8px var(--background-default-grey), inset 0 0 0 8px var(--blue-facettes);
 }
 
 .fr-radio-rich input[type=radio] + label .fr-hint-text {
@@ -12291,7 +12291,7 @@ a.fr-btn--display:not([href]),
 }
 
 .fr-radio-group input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 6px var(--background-default-grey), inset 0 0 0 12px var(--background-action-high-blue-france);
+  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 6px var(--background-default-grey), inset 0 0 0 12px var(--blue-facettes);
 }
 
 .fr-radio-group input[type=radio]:checked:disabled + label::before {
@@ -12303,7 +12303,7 @@ a.fr-btn--display:not([href]),
 }
 
 .fr-radio-group--sm input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 4px var(--background-default-grey), inset 0 0 0 8px var(--background-action-high-blue-france);
+  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 4px var(--background-default-grey), inset 0 0 0 8px var(--blue-facettes);
 }
 
 .fr-radio-group--sm input[type=radio]:checked:disabled + label::before {
@@ -12319,7 +12319,7 @@ a.fr-btn--display:not([href]),
 }
 
 .fr-radio-rich input[type=radio]:checked + label::before {
-  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 4px var(--background-default-grey), inset 0 0 0 8px var(--background-action-high-blue-france);
+  box-shadow: inset 0 0 0 1px var(--border-action-high-grey), inset 0 0 0 4px var(--background-default-grey), inset 0 0 0 8px var(--blue-facettes);
 }
 
 .fr-radio-rich input[type=radio]:checked:disabled + label {
@@ -14065,7 +14065,7 @@ input[type=submit].fr-tag[aria-pressed=true] {
   background-repeat: no-repeat;
   color: var(--text-inverted-grey);
   background-color: transparent;
-  background-image: radial-gradient(circle at 100% 0.25rem, transparent 0.578125rem, var(--background-action-high-blue-france) 0.625rem);
+  background-image: radial-gradient(circle at 100% 0.25rem, transparent 0.578125rem, var(--blue-facettes) 0.625rem);
 }
 
 a.fr-tag[aria-pressed=true]::after,
@@ -14246,10 +14246,10 @@ input[type=submit].fr-tag--dismiss.fr-tag--sm::after {
 
 .fr-tag.fr-tag--dismiss {
   color: var(--text-inverted-grey);
-  background-color: var(--background-action-high-blue-france);
+  background-color: var(--blue-facettes);
 
-  --hover: var(--background-action-high-blue-france-hover);
-  --active: var(--background-action-high-blue-france-active);
+  --hover: var(--blue-facettes-hover);
+  --active: var(--blue-facettes-active);
 }
 
 a.fr-tag,
@@ -14492,7 +14492,7 @@ input[type=button].fr-tag[aria-pressed=true]:hover,
 input[type=image].fr-tag[aria-pressed=true]:hover,
 input[type=reset].fr-tag[aria-pressed=true]:hover,
 input[type=submit].fr-tag[aria-pressed=true]:hover {
-  background-image: radial-gradient(circle at 100% 0.25rem, transparent 0.578125rem, var(--background-action-high-blue-france-hover) 0.625rem);
+  background-image: radial-gradient(circle at 100% 0.25rem, transparent 0.578125rem, var(--blue-facettes-hover) 0.625rem);
 }
 
 a.fr-tag[aria-pressed=true]:active,
@@ -14501,7 +14501,7 @@ input[type=button].fr-tag[aria-pressed=true]:active,
 input[type=image].fr-tag[aria-pressed=true]:active,
 input[type=reset].fr-tag[aria-pressed=true]:active,
 input[type=submit].fr-tag[aria-pressed=true]:active {
-  background-image: radial-gradient(circle at 100% 0.25rem, transparent 0.578125rem, var(--background-action-high-blue-france-active) 0.625rem);
+  background-image: radial-gradient(circle at 100% 0.25rem, transparent 0.578125rem, var(--blue-facettes-active) 0.625rem);
 }
 
 a.fr-tag[aria-pressed=true]:disabled,
@@ -14519,7 +14519,7 @@ input[type=button].fr-tag[aria-pressed=true].fr-tag--sm,
 input[type=image].fr-tag[aria-pressed=true].fr-tag--sm,
 input[type=reset].fr-tag[aria-pressed=true].fr-tag--sm,
 input[type=submit].fr-tag[aria-pressed=true].fr-tag--sm {
-  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--background-action-high-blue-france) 0.5rem);
+  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--blue-facettes) 0.5rem);
 }
 
 a.fr-tag[aria-pressed=true].fr-tag--sm:hover,
@@ -14528,7 +14528,7 @@ input[type=button].fr-tag[aria-pressed=true].fr-tag--sm:hover,
 input[type=image].fr-tag[aria-pressed=true].fr-tag--sm:hover,
 input[type=reset].fr-tag[aria-pressed=true].fr-tag--sm:hover,
 input[type=submit].fr-tag[aria-pressed=true].fr-tag--sm:hover {
-  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--background-action-high-blue-france-hover) 0.5rem);
+  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--blue-facettes-hover) 0.5rem);
 }
 
 a.fr-tag[aria-pressed=true].fr-tag--sm:active,
@@ -14537,7 +14537,7 @@ input[type=button].fr-tag[aria-pressed=true].fr-tag--sm:active,
 input[type=image].fr-tag[aria-pressed=true].fr-tag--sm:active,
 input[type=reset].fr-tag[aria-pressed=true].fr-tag--sm:active,
 input[type=submit].fr-tag[aria-pressed=true].fr-tag--sm:active {
-  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--background-action-high-blue-france-active) 0.5rem);
+  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--blue-facettes-active) 0.5rem);
 }
 
 a.fr-tag:disabled,
@@ -14560,7 +14560,7 @@ input[type=submit].fr-tag:disabled {
 .fr-tags-group.fr-tags-group--sm input[type=image].fr-tag[aria-pressed=true],
 .fr-tags-group.fr-tags-group--sm input[type=reset].fr-tag[aria-pressed=true],
 .fr-tags-group.fr-tags-group--sm input[type=submit].fr-tag[aria-pressed=true] {
-  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--background-action-high-blue-france) 0.5rem);
+  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--blue-facettes) 0.5rem);
 }
 
 .fr-tags-group.fr-tags-group--sm a.fr-tag[aria-pressed=true]:hover,
@@ -14569,7 +14569,7 @@ input[type=submit].fr-tag:disabled {
 .fr-tags-group.fr-tags-group--sm input[type=image].fr-tag[aria-pressed=true]:hover,
 .fr-tags-group.fr-tags-group--sm input[type=reset].fr-tag[aria-pressed=true]:hover,
 .fr-tags-group.fr-tags-group--sm input[type=submit].fr-tag[aria-pressed=true]:hover {
-  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--background-action-high-blue-france-hover) 0.5rem);
+  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--blue-facettes-hover) 0.5rem);
 }
 
 .fr-tags-group.fr-tags-group--sm a.fr-tag[aria-pressed=true]:active,
@@ -14578,7 +14578,7 @@ input[type=submit].fr-tag:disabled {
 .fr-tags-group.fr-tags-group--sm input[type=image].fr-tag[aria-pressed=true]:active,
 .fr-tags-group.fr-tags-group--sm input[type=reset].fr-tag[aria-pressed=true]:active,
 .fr-tags-group.fr-tags-group--sm input[type=submit].fr-tag[aria-pressed=true]:active {
-  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--background-action-high-blue-france-active) 0.5rem);
+  background-image: radial-gradient(circle at 100% 0.1875rem, transparent 0.4475rem, var(--blue-facettes-active) 0.5rem);
 }
 
 /* ¯¯¯¯¯¯¯¯¯ *\
