@@ -246,6 +246,9 @@ a {
   --background-action-low-blue-france: var(--blue-france-925-125);
   --background-action-low-blue-france-hover: var(--blue-france-925-125-hover);
   --background-action-low-blue-france-active: var(--blue-france-925-125-active);
+  --background-action-low-blue-facettes: var(--low-blue-facettes);
+  --background-action-low-blue-facettes-hover: var(--low-blue-facettes-hover);
+  --background-action-low-blue-facettes-active: var(--low-blue-facettes-active);
   --background-action-low-red-marianne: var(--red-marianne-925-125);
   --background-action-low-red-marianne-hover: var(--red-marianne-925-125-hover);
   --background-action-low-red-marianne-active: var(--red-marianne-925-125-active);
@@ -813,6 +816,9 @@ a {
   --blue-facettes: #304591;
   --blue-facettes-hover: #304591;
   --blue-facettes-active: #304591;
+  --low-blue-facettes: rgba(48, 69, 145, 0.2);
+  --low-blue-facettes-hover: rgba(48, 69, 145, 0.4);
+  --low-blue-facettes-active: rgba(48, 69, 145, 0.6);
   --orange-facettes: #DC7E11;
   --green-facettes: #0c3923;
   box-sizing: border-box;
@@ -13188,10 +13194,10 @@ a.fr-btn--display:not([href]),
 }
 
 .fr-tabs__tab:not([aria-selected=true]) {
-  background-color: var(--background-action-low-blue-france);
+  background-color: var(--background-action-low-blue-facettes);
 
-  --hover: var(--background-action-low-blue-france-hover);
-  --active: var(--background-action-low-blue-france-active);
+  --hover: var(--background-action-low-blue-facettes-hover);
+  --active: var(--background-action-low-blue-facettes-active);
   color: var(--text-action-high-grey);
 }
 
@@ -14232,10 +14238,10 @@ input[type=submit].fr-tag--dismiss.fr-tag--sm::after {
 
 .fr-tag[aria-pressed=false] {
   color: var(--text-action-high-blue-facettes);
-  background-color: var(--background-action-low-blue-france);
+  background-color: var(--background-action-low-blue-facettes);
 
-  --hover: var(--background-action-low-blue-france-hover);
-  --active: var(--background-action-low-blue-france-active);
+  --hover: var(--background-action-low-blue-facettes-hover);
+  --active: var(--background-action-low-blue-facettes-active);
 }
 
 .fr-tag.fr-tag--dismiss {
@@ -14253,10 +14259,10 @@ input[type=image].fr-tag,
 input[type=reset].fr-tag,
 input[type=submit].fr-tag {
   color: var(--text-action-high-blue-facettes);
-  background-color: var(--background-action-low-blue-france);
+  background-color: var(--background-action-low-blue-facettes);
 
-  --hover: var(--background-action-low-blue-france-hover);
-  --active: var(--background-action-low-blue-france-active);
+  --hover: var(--background-action-low-blue-facettes-hover);
+  --active: var(--background-action-low-blue-facettes-active);
 }
 
 a.fr-tag--green-tilleul-verveine,
