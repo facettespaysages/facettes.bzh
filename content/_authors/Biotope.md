@@ -2,7 +2,7 @@
 fullname: Biotope environnement
 role: écologue
 domaine: écologie
-link: https://www.abeil-bretagne.fr/
+link: https://www.biotope.fr/
 incubator: maitres_oeuvre
 avatar: ""
 competences:
