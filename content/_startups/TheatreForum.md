@@ -1,6 +1,6 @@
 ---
-title: Théâtre forum
-mission: Accompagner la démarche du PCAET
+title: C'est mieux de le jouer
+mission: Animer des ateliers publics par le théâtre forum dans le cadre d'un Plan Climat Air Energie Territoire
 sponsors:
 incubator:
 link:

@@ -1,6 +1,6 @@
 ---
 title: Un jardin sec suspendu
-mission: Aménager un jardin sur un toit terrasse à Nantes
+mission: Réaliser un jardin sur un toit terrasse à Nantes
 sponsors:
 incubator:
 link:

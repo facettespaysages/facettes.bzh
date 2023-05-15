@@ -1,6 +1,6 @@
 ---
 title: Ceci n’est pas un jardin
-mission: Projet lauréat de la 27ème édition «Jardin de la Pensée» du domaine de Chaumont-sur-Loire
+mission: Réaliser un jardin éphémère à l'occasion de la 27ème édition «Jardin de la Pensée» du domaine de Chaumont-sur-Loire
 sponsors:
 incubator:
 link:

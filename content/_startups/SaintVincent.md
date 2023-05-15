@@ -4,7 +4,7 @@ mission: Accompagner la transformation du centre-bourg
 sponsors:
 incubator:
 link:
-contact: Camille Laude Architecte, SODEREF Environnement
+contact: Camille Laude Architecte, SODEREF
 accessibility_status:
 usertypes:
   - particulier
