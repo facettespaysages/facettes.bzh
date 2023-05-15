@@ -17,20 +17,20 @@ Je suis <b>paysagiste conceptrice</b>,  diplômée en 2016 de l'Ecole Nationale 
 
 J'ai grandi dans le centre Finistère, à travers le bocage des Monts d'Arrée et les paysages littoraux de la presqu'île de Crozon, de la baie de Terenez ou encore le Cap Sizun.
 Une fois le baccaulauréat en poche, j'intègre l'Ecole Nationale Supérieure d'Architecture de Nantes, où je suis un cycle de licence.
-En 2012, je décide de passer le concours commun aux quatre écoles de Paysage (Versailles, Marseille, Bordeaux et Lille).
+En 2012, je décide de passer le concours commun aux quatre écoles de Paysage (Versailles, Marseille, Bordeaux et Lille). Pour ma plus grande joie, j'intègre l'école de Lille.
 
 Sensible à l’équilibre entre l’espace, le temps et toutes les formes du vivant, je pratique le projet de paysage en faisant de la couture avec l’existant, en favorisant le développement de nouveaux usages, et en travaillant la matière végétale pour créer des ambiances paysagères adaptées au contexte.
 J'acquiert une expérience de sept années en agence d’urbanisme et de paysage. Jusqu’à fin 2022, je travaille à l’atelier Jacqueline Osty et Associés où, sous la direction de Loïc Bonnin et Gabriel Mauchamp, je coordonne le volet opérationnel des accords cadres de la ZAC Sud-Ouest de l’Île de Nantes et la ZAC Bottière Pin Sec (ANRU II).
 
 A l’issue de ses années d’expériences, je crée Facettes Paysages en janvier 2023. Je choisis consciencieusement l'établissement de l'agence...
-C'est dans le Finistère que je m'enracine, pour travailler sur des thématiques touchant au développement des territoires peu denses, au-delà des limites des grandes agglomérations.
+C'est dans le Finistère que je m'enracine, à Collorec, pour travailler sur des thématiques touchant au développement des territoires peu denses, et sur les paysages comestibles.
 
 </div>
 
 <h2>Expérimenter le paysage</h2>
 
 <div>
-Le «paysage» est multifacettes et évolue constamment en fonction du rapport établi entre les activités humaines et la Terre. En tant que paysagiste, j'éprouve une forme de liberté pour expérimenter et faire évoluer les esprits sur notre rapport à la forêt. Basée en centre Finistère, la forêt nourricière est un lieu d’expérimentation, où l’observation des plantes est la clé pour parvenir à identifier les essences comestibles adaptées au climat de demain.
+Le «paysage» est multifacettes et évolue constamment en fonction du rapport établi entre les activités humaines et la Terre. En tant que paysagiste, j'éprouve une forme de liberté pour expérimenter et faire évoluer les esprits sur notre rapport à la forêt. Basée à Collorec, la forêt nourricière est un lieu d’expérimentation, où l’observation des plantes est la clé pour parvenir à identifier les essences comestibles adaptées au climat de demain.
 
 A mon échelle, je suis force de proposition et d’action à mettre en place pour établir des stratégies d’adaption des territoires aux dérèglements climatiques, pour les accompagner dans leur résilience.
 Le théâtre d’improvisation nourrit ma philosophie professionnelle grâce à l’écoute, la prise de risque, l’organisation et la confiance de groupe.
