@@ -6,6 +6,7 @@ incubator:
 link:
 contact: Camille Laude Architecte, SODEREF
 accessibility_status:
+image_bandeau: /assets/images/saintvincent.jpg
 usertypes:
   - particulier
   - entreprise
@@ -19,7 +20,7 @@ phases:
 # Requalification du centre-bourg
 _Etudes d’aménagement du centre-bourg de Saint-Vincent du Lorouër_
 
-![saintvincent](/facettes.bzh/assets/images/saintvincent.jpg)
+![saintvincent](/assets/images/saintvincent.jpg)
 
 ## Contexte 
 

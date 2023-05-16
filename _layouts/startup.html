@@ -33,6 +33,12 @@ layout: default
 {% endif %}
 {% endcapture %}
 
+{% capture image_bandeau %}
+{% if page.image_bandeau %}
+<img src="{{page.image_bandeau}}">
+{% endif %}
+{% endcapture %}
+
 {% capture budget_info %}
 {% if page.budget_url %}
 Le budget <a href="{{ page.budget_url }}">est ouvert</a>.
@@ -44,10 +50,7 @@ L’équipe ne communique pas encore sur son budget.
 <div class="fr-py-6w section-grey">
   <div class="fr-container fr-grid-row fr-grid-row--center">
     <div class="fr-col-md-8">
-      <ul>
-        <li>{{ contact_info }}</li>
-          <li>{{ budget_info }}</li>
-      </ul>
+        {{ image_bandeau }}
     </div>
   </div>
 </div>
