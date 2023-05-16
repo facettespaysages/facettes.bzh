@@ -6,6 +6,7 @@ incubator:
 link:
 contact: Camille Laude Architecte, SODEREF
 accessibility_status:
+image_bandeau: /assets/images/saintvincent.jpg
 usertypes:
   - particulier
   - entreprise
