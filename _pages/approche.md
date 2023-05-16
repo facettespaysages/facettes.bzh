@@ -4,16 +4,10 @@ permalink: /approche/
 title: Facettes Paysages
 ---
 
-
-<div>
-
 Je suis <b>paysagiste conceptrice</b>,  diplômée en 2016 de l'Ecole Nationale Supérieure d'Architecture et de Paysage de Lille.
 
-</div>
 
-<h2>Prendre racine</h2>
-
-<div>
+## Prendre racine
 
 J'ai grandi dans le centre Finistère, à travers le bocage des Monts d'Arrée et les paysages littoraux de la presqu'île de Crozon, de la baie de Terenez ou encore le Cap Sizun.
 Une fois le baccaulauréat en poche, j'intègre l'Ecole Nationale Supérieure d'Architecture de Nantes, où je suis un cycle de licence.
@@ -25,17 +19,11 @@ J'acquiert une expérience de sept années en agence d’urbanisme et de paysage
 A l’issue de ces années d’expériences, je crée Facettes Paysages en janvier 2023. Je choisis consciencieusement l'établissement de l'agence...
 C'est dans le Finistère que je m'enracine, à Collorec, pour travailler sur des thématiques touchant au développement des territoires peu denses, et sur les paysages comestibles.
 
-</div>
+## Expérimenter le paysage
 
-<h2>Expérimenter le paysage</h2>
-
-<div>
 Le «paysage» est multifacettes et évolue constamment en fonction du rapport établi entre les activités humaines et la Terre. En tant que paysagiste, j'éprouve une forme de liberté pour expérimenter et faire évoluer les esprits sur notre rapport à la forêt. Basée à Collorec, la forêt nourricière est un lieu d’expérimentation, où l’observation des plantes est la clé pour parvenir à identifier les essences comestibles adaptées au climat de demain.
 
 A mon échelle, je suis force de proposition et d’action à mettre en place pour établir des stratégies d’adaption des territoires aux dérèglements climatiques, pour les accompagner dans leur résilience.
 Le théâtre d’improvisation nourrit ma philosophie professionnelle grâce à l’écoute, la prise de risque, l’organisation et la confiance de groupe.
-</div>
 
-<!-- end conversion tracking -->
 
-title: Découvrir Facettes Paysages

@@ -1,12 +1,12 @@
 ---
 layout: startups
-title: Nos réalisations
+title: Mes réalisations
 permalink: /startups/
 redirect_from:
   - /portefeuille
   - /startup
 ---
 
-## Sur quoi travaillons-nous ?
+## Pannel de projet de paysage
 
-Voici une sélection de projets conçus par Facettes Paysages.
+Voici une sélection de projets de Facettes Paysages.
