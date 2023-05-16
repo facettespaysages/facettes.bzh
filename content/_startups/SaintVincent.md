@@ -19,7 +19,7 @@ phases:
 # Requalification du centre-bourg
 _Etudes d’aménagement du centre-bourg de Saint-Vincent du Lorouër_
 
-![saintvincent](/facettes.bzh/assets/images/saintvincent.jpg)
+![saintvincent](/assets/images/saintvincent.jpg)
 
 ## Contexte 
 
