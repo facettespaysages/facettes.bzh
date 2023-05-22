@@ -27,8 +27,6 @@ phases:
 # Requalification du centre-bourg
 _Etudes d’aménagement du centre-bourg de Saint-Vincent du Lorouër_
 
-![saintvincent](/assets/images/saintvincent.jpg)
-
 ## Contexte 
 
 La commune de Saint-Vincent a missionné notre équipe pour intégrer l'élargissement de la route départementale dans une étude plus large de requalification des espaces publics du centre-bourg.
