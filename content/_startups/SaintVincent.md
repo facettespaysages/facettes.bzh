@@ -8,12 +8,12 @@ contact: Camille Laude Architecte, SODEREF
 accessibility_status:
 image_bandeau: /assets/images/saintvincent.jpg
 gallery:
-    - url: /assets/images/saintvincent.jpg
-      image_path: /assets/images/saintvincent.jpg
-      alt: "placeholder image 1"
-    - url: /assets/images/saintvincent2.jpg
-      image_path: /assets/images/saintvincent2.jpg
-      alt: "placeholder image 2"
+  - url: /assets/images/saintvincent.jpg
+    image_path: /assets/images/saintvincent.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/saintvincent2.jpg
+    image_path: /assets/images/saintvincent2.jpg
+    alt: "placeholder image 2"
 usertypes:
   - particulier
   - entreprise
@@ -26,8 +26,6 @@ phases:
 ---
 # Requalification du centre-bourg
 _Etudes d’aménagement du centre-bourg de Saint-Vincent du Lorouër_
-
-![saintvincent](/assets/images/saintvincent.jpg)
 
 ## Contexte 
 
