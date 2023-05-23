@@ -16,7 +16,7 @@ En 2012, je décide de passer le concours commun aux quatre écoles de Paysage (
 Sensible à l’équilibre entre l’espace, le temps et toutes les formes du vivant, je pratique le projet de paysage en faisant de la couture avec l’existant, en favorisant le développement de nouveaux usages, et en travaillant la matière végétale pour créer des ambiances paysagères adaptées au contexte.
 J'acquiert une expérience de sept années en agence d’urbanisme et de paysage. Jusqu’à fin 2022, je travaille à l’atelier Jacqueline Osty et Associés où, sous la direction de Loïc Bonnin et Gabriel Mauchamp, je coordonne le volet opérationnel des accords cadres de la ZAC Sud-Ouest de l’Île de Nantes et la ZAC Bottière Pin Sec (ANRU II).
 
-![Le bocage de Collorec](/assets/images/FP1.jpg)
+![Le bocage de Collorec](/Users/juliette/Documents/site/facettes.bzh/assets/images/FP1.jpg)
 
 A l’issue de ces années d’expériences, je crée Facettes Paysages en janvier 2023. Je choisis consciencieusement l'établissement de l'agence...
 C'est dans le Finistère que je m'enracine, à Collorec, pour travailler sur des thématiques touchant au développement des territoires peu denses, et sur les paysages comestibles.
