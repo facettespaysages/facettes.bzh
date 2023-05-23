@@ -4,6 +4,8 @@ permalink: /approche/
 title: Facettes Paysages
 ---
 
+![Juliette Ols](/facettes.bzh/assets/images/FP.jpg)
+
 Je suis <b>paysagiste conceptrice</b>,  diplômée en 2016 de l'Ecole Nationale Supérieure d'Architecture et de Paysage de Lille.
 
 
@@ -18,7 +20,7 @@ J'acquiert une expérience de sept années en agence d’urbanisme et de paysage
 
 ![Le quai des Antilles](/facettes.bzh/assets/images/FP2.jpg)
 
-A l’issue de ces années d’expériences, je crée Facettes Paysages en janvier 2023. Je choisis consciencieusement l'établissement de l'agence...
+A l’issue de ces années d’expérience, je crée Facettes Paysages en janvier 2023. Je choisis consciencieusement l'établissement de l'agence...
 C'est dans le Finistère que je m'enracine, à Collorec, pour travailler sur des thématiques touchant au développement des territoires peu denses, et sur les paysages comestibles.
 
 ![Le bocage de Collorec](/facettes.bzh/assets/images/FP1.jpg)
