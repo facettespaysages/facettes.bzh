@@ -8,12 +8,12 @@ contact: Camille Laude Architecte, SODEREF
 accessibility_status:
 image_bandeau: /assets/images/saintvincent.jpg
 gallery:
-  - url: /assets/images/saintvincent.jpg
-    image_path: /assets/images/saintvincent.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/saintvincent2.jpg
-    image_path: /assets/images/saintvincent2.jpg
-    alt: "placeholder image 2"
+    - url: /assets/images/saintvincent.jpg
+      image_path: /assets/images/saintvincent.jpg
+      alt: "placeholder image 1"
+    - url: /assets/images/saintvincent2.jpg
+      image_path: /assets/images/saintvincent2.jpg
+      alt: "placeholder image 2"
 usertypes:
   - particulier
   - entreprise
@@ -55,3 +55,4 @@ L'avis favorable émis par le Conseil Départemental de la Sarthe ouvre la phase
 
 Les travaux seront réalisés à partir de l'automne 2023.
 
+{% include gallery caption="Quelques vues du projet" %}
