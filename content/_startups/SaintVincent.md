@@ -57,4 +57,3 @@ L'avis favorable émis par le Conseil Départemental de la Sarthe ouvre la phase
 
 Les travaux seront réalisés à partir de l'automne 2023.
 
-{% include gallery caption="Quelques vues du projet" %}

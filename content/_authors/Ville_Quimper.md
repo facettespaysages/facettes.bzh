@@ -10,4 +10,4 @@ badges:
 missions:
 ---
 
-La ville de Quimper me fait confiance dans l'élaboration du plan de paysage.
+La ville de Quimper me fait confiance dans l'élaboration de son plan de paysage.

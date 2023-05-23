@@ -10,4 +10,4 @@ badges:
 missions:
 ---
 
-L'Atelier de l'Hermine est un atelier spécialisé dans la conception et la réalisation de projets et d'équipement valorisant les patrimoines culturels, naturels et bâtis. L'atelier est basé à Locquénolé. Dans le cadre de la labellisation Geopark du Parc Naturel Régional d'Armorique, nous avons travaillé ensemble sur la rédaction des dossiers réglementaires.
+Biotope environnement est un bureau d'études spécialisé sur les sujets d'écologie. Facettes Paysages travaille avec l'antenne brestoise. Biotope fait partie de notre équipe lauréate du plan de paysage de Quimper.
