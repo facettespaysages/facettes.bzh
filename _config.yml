@@ -117,7 +117,7 @@ defaults:
       startups_img: true
 
 # SEO Related
-google_site_verification :
+google_site_verification: "XUq_gtkZ2PNNqYTwCggkcVT3NS8zGq_cXEpgGqItvS4"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
