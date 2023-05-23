@@ -10,4 +10,4 @@ badges:
 missions:
 ---
 
-La ville de Quimper me fait confiance dans l'élaboration de son plan de paysage.
+Avec Isabelle Nivez, Louise Quintana, Bientôt et Biotope, la ville de Quimper nous fait confiance dans l'élaboration de son plan de paysage.

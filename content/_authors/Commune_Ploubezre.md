@@ -10,4 +10,4 @@ badges:
 missions:
 ---
 
-La commune de Ploubezre me fait confiance dans l'étude de requalification des espaces publics du centre-bourg.
+Avec ABEIL, la commune de Ploubezre nous fait confiance dans l'étude de requalification des espaces publics du centre-bourg.

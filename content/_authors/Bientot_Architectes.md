@@ -10,4 +10,4 @@ badges:
 missions:
 ---
 
-Bientôt est une agence d'architecture et d'urbanisme basée à Vierzon. Nous sommes lauréats pour mener l'étude Action Coeur de Ville à Vierzon.
+Bientôt est une agence d'architecture et d'urbanisme basée à Vierzon. Nous sommes lauréats pour mener l'étude Action Coeur de Ville à Vierzon et le plan de paysage de Quimper.

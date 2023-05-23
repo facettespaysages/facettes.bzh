@@ -10,5 +10,5 @@ badges:
 missions:
 ---
 
-Louise Quintana est basée à Saint-Brévin-les-Pins en tant que paysagiste conceptrice indépendante. Nous avons répondu en groupement pour le plan de paysage de Quimper.
+Louise Quintana est basée à Saint-Brévin-les-Pins en tant que paysagiste conceptrice indépendante. Elle fait partie de notre équipe lauréate du plan de paysage de Quimper.
 
