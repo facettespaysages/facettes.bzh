@@ -28,6 +28,7 @@ future: true
 # Options du template
 
 lang: fr
+locale: fr_FR
 
 include: [
   "_pages",
